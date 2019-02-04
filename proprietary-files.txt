@@ -20,11 +20,11 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_593.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_1080p_593.xml
 
 # Camera
-etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
-etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json
-etc/zaf/zaf_imx386_mono.json:vendor/etc/zaf/zaf_imx386_mono.json
-lib/hw/libSonyDefocus.so:vendor/lib/hw/libSonyDefocus.so
+vendor/etc/zaf/zaf_mot_s5k2l7sa.json
+vendor/etc/zaf/zaf_imx386.json
+vendor/etc/zaf/zaf_imx386_mono.json
 vendor/lib/hw/camera.sdm660.so
+vendor/lib/hw/libSonyDefocus.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libactuator_mot_ak7371.so
 vendor/lib/libflash_aw3643_rear.so
@@ -373,8 +373,6 @@ vendor/lib64/libdualcameraddm.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
 vendor/lib/libmm-qcamera.so
-lib/libcamera_metadata.so:vendor/lib/libcamera_metadata.so
-lib64/libcamera_metadata.so:vendor/lib64/libcamera_metadata.so
 
 # Cam from P
 vendor/lib/libmot_gpu_mapper.so
@@ -415,6 +413,18 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
 
+# Firmware
+vendor/firmware/focaltech-auo-ft5x46-03-0001-evert.bin
+vendor/firmware/focaltech-djn-ft5x46-15-0001-evert.bin
+vendor/firmware/goodix-auo-gt9xx-600a-0001-evert.bin
+vendor/firmware/goodix-tianma-gt9xx-6009-0001-evert.bin
+vendor/firmware/leia_pfp_470.fw
+vendor/firmware/leia_pm4_470.fw
+vendor/firmware/marley-dsp1-ultrasound.wmfw
+vendor/firmware/marley-dsp2-aov-frontend.wmfw
+vendor/firmware/marley-dsp2-aov-vrgain.bin
+vendor/firmware/marley-dsp3-aov-control.wmfw
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
@@ -434,6 +444,17 @@ vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
+
+# Media
+vendor/lib/libmmsw_detail_enhancement.so
+vendor/lib/libmmsw_math.so
+vendor/lib/libmmsw_opencl.so
+vendor/lib/libmmsw_platform.so
+vendor/lib64/libmmosal_proprietary.so
+vendor/lib64/libmmsw_detail_enhancement.so
+vendor/lib64/libmmsw_math.so
+vendor/lib64/libmmsw_opencl.so
+vendor/lib64/libmmsw_platform.so
 
 # NFC
 vendor/lib64/libpn553_fw.so
