@@ -376,7 +376,7 @@ vendor/lib/libmm-qcamera.so
 
 # Cam from P
 vendor/lib/libmot_gpu_mapper.so
-vendor/lib/libgui_vendor.so
+vendor/lib/libgui_vendor.so|2289516454cceae50bb3963f9255bc113a24b508
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
