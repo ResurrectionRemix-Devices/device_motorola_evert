@@ -77,4 +77,4 @@ PRODUCT_RELEASE_NAME := evert
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=evert
 
-BUILD_FINGERPRINT := motorola/evert/evert:9/PPW29.116-11/353a4:user/release-keys
+BUILD_FINGERPRINT := motorola/evert_retail/evert:9/PPWS29.116-11-2/00cb:user/release-keys
