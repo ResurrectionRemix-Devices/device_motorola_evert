@@ -41,3 +41,12 @@ on property:ro.vendor.hw.dualsim=false
 
 on property:ro.boot.hardware.sku=XT1926-9
     setprop ro.hw.nfc false
+
+service adjust_acdb_path /vendor/bin/init.mmi.acdb.sh
+    class core
+    user root
+    disabled
+    oneshot
+
+on early-boot
+   start adjust_acdb_path

@@ -50,7 +50,8 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.evert.rc
+    init.evert.rc \
+    init.mmi.acdb.sh
 
 # NFC
 PRODUCT_PACKAGES += \
